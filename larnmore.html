@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>project1</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+       header{
+        background-color: gray;
+       }
+   </style>
+</head>
+<body>
+	<!--navbar-->
+  <a name="top"></a>
+	<nav class="navbar">
+		  <h1 class="logo">OFFROADER'S</h1>
+		  <ul class="nav-links">
+		  	<li class="active"><a href="index.html">Home</a></li>
+		  	<li><a href="#events">Event</a></li>
+		  	<li><a href="#explore">Explore</a></li>
+		  	<li><a href="#Ticket">Teckit</a></li>
+		  	<li><a class="ctn" href="#" id="ct">contact</a></li> 
+		  </ul>
+	</nav>
+    <img src="menu.jpg" alt="menu" class="menu-btn">
+	<header class="la">
+		<div class="header-content">
+			<h2 style="font-size: 42px;">Our Event</h2>
+			<div class="line"></div>
+			<h1 style="margin: 30px; font-size: 25px;">Off-road racing is a thrilling and challenging sport that tests the limits of both man and machine. It is an adrenaline-pumping experience that involves racing through rugged terrain, mud, sand, and rocks. Off-road racing is not for the faint of heart, and it requires a lot of skill, courage, and determination. In this blog, we will take a closer look at off-road racing and what makes it so exciting.</h1>
+            
+		</div>
+	</header>
+
+
+	<!--js navbar btn-->
+ <script>
+    const menuBtn=document.querySelector('.menu-btn')
+    const navlinks=document.querySelector('.nav-links')
+    menuBtn.addEventListener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+ 		
+ </script>
+
+
+
+<!--footer-->
+<div class="op">
+<div class="row primary">
+    <div class="column about">
+        <h3>Connect</h3>
+        <p>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>   Pune Towers, Service Road, pune
+        </p>
+        <div class="social">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter-square"></i>
+            <a href="https://www.linkedin.com/in/abhishek-tarfe-932bb5218"><i class="fa fa-linkedin-square"></i></a>
+            <i class="fa fa-instagram"></i>
+        </div>
+    </div>
+
+    <div class="column link">
+        <h3>Links</h3>
+        <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#blogs">Blogs</a></li>
+            <li><a href="#support">Support</a></li>
+        </ul>
+    </div>
+
+    <div class="column subscribe">
+        <h3>Mail Box</h3>
+        <div>
+           <input type="email" placeholder="Type email here" />
+           <button>Send</button>
+        </div>
+    </div>
+</div>
+
+<div class="row copyright">
+  <div class="footer-menu">
+
+  <a href="#top">Home</a>
+  <a href="">F.A.Q</a>
+  <a href="">Cookies Policy</a>
+  <a href="">Terms Of Service</a>
+  <a href="">Support</a>
+
+  </div>
+   <p>Copyright &copy; 2022</p>
+</div>
+</div>
+
+</body>
+</html>
